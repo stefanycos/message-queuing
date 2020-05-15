@@ -1,0 +1,17 @@
+spring:
+  application:
+    name: 'jms-rabbitmq-spring-demo'
+
+server:
+  port: 8087
+
+app:
+  exchange-name: direct.jms.demo.exchange
+  queue-name: demo.jms.queue
+  routing-key: demo.routing.key
+  jms:
+     host: localhost
+     virtual-host: /
+     port: 5672
+     username: guest
+     password: guest
