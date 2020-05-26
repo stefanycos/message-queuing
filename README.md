@@ -1,6 +1,6 @@
 # Message Queuing Demos
 
-Usage demonstrations of Message Queuing with RabbitMQ.
+Usage demonstrations of Message Queuing with RabbitMQ and Redis.
 
 ### Requirements
 * Maven
